@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E01DA2EA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevHoro.WebAPI", "DevHoro.WebAPI\DevHoro.WebAPI.csproj", "{A742925B-DFD9-4ACD-92D2-DA63602EBD10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevHoro.ConsoleClient", "DevHoro.ConsoleClient\DevHoro.ConsoleClient.csproj", "{5098CDBF-CCAA-4C03-ABAB-9395407A0961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevHoro.ConsoleClient", "DevHoro.ConsoleClient\DevHoro.ConsoleClient.csproj", "{5098CDBF-CCAA-4C03-ABAB-9395407A0961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevHoro.UnitTests", "DevHoro.UnitTests\DevHoro.UnitTests.csproj", "{125C48DA-4DF5-47A5-8211-269F68103B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{5098CDBF-CCAA-4C03-ABAB-9395407A0961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5098CDBF-CCAA-4C03-ABAB-9395407A0961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5098CDBF-CCAA-4C03-ABAB-9395407A0961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125C48DA-4DF5-47A5-8211-269F68103B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125C48DA-4DF5-47A5-8211-269F68103B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125C48DA-4DF5-47A5-8211-269F68103B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125C48DA-4DF5-47A5-8211-269F68103B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A742925B-DFD9-4ACD-92D2-DA63602EBD10} = {49684E9D-B2D9-49BD-A8E7-A7CB0A7A588D}
 		{5098CDBF-CCAA-4C03-ABAB-9395407A0961} = {49684E9D-B2D9-49BD-A8E7-A7CB0A7A588D}
+		{125C48DA-4DF5-47A5-8211-269F68103B66} = {E01DA2EA-2572-428D-B800-24D3F608AF7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1413EE26-1F40-4221-B6B2-D2A8E52FF637}
